@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="@dimen/_20sdp"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".views.fragments.boardingFragments.BoardingFragmentOne">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_72sdp"
+        android:fontFamily="@font/popin_bold"
+        android:text="@string/estimates_your"
+        android:textAllCaps="true"
+        android:textColor="@color/teal_500"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:fontFamily="@font/popin_bold"
+        android:text="@string/hemoglobin_levels_with_a_fingernail_selfie"
+        android:textColor="@color/dark_pink"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_94sdp"
+        android:layout_marginHorizontal="@dimen/_1sdp"
+        android:layout_marginVertical="@dimen/_16sdp"
+        android:elevation="@dimen/_2sdp"
+        android:outlineProvider="background"
+        app:cardCornerRadius="@dimen/_5sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_4sdp"
+            android:fontFamily="@font/popin_regular"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/dummy_text"
+            android:textColor="@color/dark_blue"
+            android:textSize="@dimen/_10ssp" />
+
+        <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
+            android:id="@+id/spring_dots_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_36sdp"
+            app:dampingRatio="0.5"
+            app:dotsColor="@color/dark_blue"
+            app:dotsCornerRadius="10dp"
+            app:dotsSize="16dp"
+            app:dotsSpacing="6dp"
+            app:dotsStrokeColor="@color/dark_blue"
+            app:dotsStrokeWidth="2dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/indicatoImage"
+            app:stiffness="300" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/check_up" />
+
+    <TextView
+        android:id="@+id/btnGetStarted"
+        style="@style/MainButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_8sdp"
+        android:text="@string/get_started"
+        android:textAllCaps="true"
+        android:layout_marginVertical="@dimen/_16sdp"
+        android:background="@drawable/main_btn_bg"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+    <View
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-2dp"
+        android:background="@drawable/view_round_bg" />
+
+<!--        <View-->
+<!--            android:layout_width="@dimen/_2sdp"-->
+<!--            android:layout_height="@dimen/_8sdp"-->
+<!--            android:background="@color/white"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginTop="-8dp"-->
+<!--            android:layout_marginStart="@dimen/_30sdp"-->
+<!--            />-->
+
+    <ImageView
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_16sdp"
+        android:src="@drawable/rect_blue"
+        android:layout_gravity="center"
+        android:layout_marginStart="-4dp"
+        />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/boarding_nav_graph"
+    app:startDestination="@id/boardingFragmentOne">
+
+    <fragment
+        android:id="@+id/boardingFragmentOne"
+        android:name="com.zat.nurture.views.fragments.boardingFragments.BoardingFragmentOne"
+        android:label="fragment_boarding_first"
+        tools:layout="@layout/fragment_boarding_first" >
+        <action
+            android:id="@+id/action_boardingFragmentOne_to_boardingFragmentTwo"
+            app:destination="@id/boardingFragmentTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/boardingFragmentTwo"
+        android:name="com.zat.nurture.views.fragments.boardingFragments.BoardingFragmentTwo"
+        android:label="fragment_boarding_two"
+        tools:layout="@layout/fragment_boarding_two" >
+        <action
+            android:id="@+id/action_boardingFragmentTwo_to_alertFragment"
+            app:destination="@id/alertFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/alertFragment"
+        android:name="com.zat.nurture.views.fragments.boardingFragments.AlertFragment"
+        android:label="fragment_alert"
+        tools:layout="@layout/fragment_alert" />
+</navigation>

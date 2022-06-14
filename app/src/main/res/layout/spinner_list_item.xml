@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/txtIronSupplememt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_6sdp"
+    android:layout_marginHorizontal="@dimen/_12sdp"
+    android:background="@drawable/top_round_rect_white"
+    android:drawableEnd="@drawable/ic_arrow_forward"
+    android:drawableTint="@color/teal_500"
+    android:fontFamily="@font/popin_regular"
+android:elevation="@dimen/_2sdp"
+    android:outlineProvider="none"
+    android:paddingVertical="@dimen/_6sdp"
+    android:paddingStart="@dimen/_8sdp"
+    android:paddingEnd="@dimen/_10sdp"
+    android:text="@string/iron_supplements"
+    android:textColor="@color/teal_500"
+    android:textSize="@dimen/_10ssp" />

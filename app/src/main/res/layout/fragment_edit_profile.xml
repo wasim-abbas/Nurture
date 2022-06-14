@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".views.fragments.mainFragments.EditProfileFragment">
+
+
+
+    <View
+        android:id="@+id/viewOne"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1.1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtBAck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/back"
+        android:textColor="@color/teal_500"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        />
+
+    <View
+        android:id="@+id/v2"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_alignParentRight="true"
+        android:background="@color/teal_500"
+        android:elevation="@dimen/_2sdp"
+        android:outlineProvider="background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtBAck"
+        android:layout_marginEnd="@dimen/_32sdp"
+        />
+
+    <View
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_toEndOf="@id/v2"
+        android:background="@color/teal_500"
+        android:elevation="@dimen/_2sdp"
+        android:outlineProvider="background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtBAck"
+        android:layout_marginEnd="@dimen/_24sdp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewOne">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/change_email_address"
+            android:textColor="@color/dark_blue"
+            android:textSize="@dimen/_12ssp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@color/dark_blue"
+                android:elevation="@dimen/_2sdp"
+                android:outlineProvider="background" />
+
+            <View
+                android:layout_width="@dimen/_4sdp"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@color/dark_blue"
+                android:outlineProvider="background"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:elevation="@dimen/_2sdp" />
+        </LinearLayout>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginVertical="@dimen/_12sdp"
+            android:background="@drawable/editex_bg"
+            android:fontFamily="@font/popin_regular"
+            android:hint="@string/enter_your_email"
+            android:textColorHint="@color/teal_500"
+            android:paddingVertical="@dimen/_10sdp"
+            android:paddingStart="@dimen/_12sdp"
+            android:textSize="@dimen/_10ssp" />
+
+        <TextView
+            android:id="@+id/btnSave"
+            style="@style/MainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginVertical="@dimen/_8sdp"
+            android:background="@drawable/main_btn_bg"
+            android:paddingVertical="@dimen/_8sdp"
+            android:text="Save!" />
+
+
+           <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-2dp"
+            android:elevation="@dimen/_2sdp"
+            android:outlineProvider="background"
+            android:background="@drawable/view_round_bg" />
+
+        <ImageView
+            android:layout_width="@dimen/_12sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="-4dp"
+            android:elevation="@dimen/_2sdp"
+            android:outlineProvider="background"
+            android:src="@drawable/rect_blue" />
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

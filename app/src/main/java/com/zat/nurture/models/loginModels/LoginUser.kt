@@ -1,0 +1,30 @@
+package com.zat.nurture.models.loginModels
+
+data class LoginUser(
+    var address: Any?,
+    var card_brand: Any?,
+    var card_last_four: Any?,
+    var created_at: String?,
+    var deleted_at: Any?,
+    var device_token: String?,
+    var email: String?,
+    var id: Int?,
+    var image: String?,
+    var is_approved: String?,
+    var is_verified: Boolean?,
+    var mobile: String?,
+    var name: String?,
+    var remember_token: Any?,
+    var social_token: Any?,
+    var status: Boolean?,
+    var stripe_id: Any?,
+    var trial_ends_at: Any?,
+    var updated_at: String?,
+    var user_type: String?,
+    var org_name :String,
+    var firstname :String,
+    var lastname :String,
+    var tax_id :String,
+    var u_code :String,
+    var total_earning :String
+    )

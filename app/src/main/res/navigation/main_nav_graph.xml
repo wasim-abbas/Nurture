@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_captureNailFragment"
+            app:destination="@id/captureNailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productFragment2"
+        android:name="com.zat.nurture.views.fragments.mainFragments.ProductFragment"
+        android:label="fragment_product"
+        tools:layout="@layout/fragment_product" >
+        <action
+            android:id="@+id/action_productFragment2_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+        <action
+            android:id="@+id/action_settingFragment_to_aboutUsFragment"
+            app:destination="@id/aboutUsFragment" />
+        <action
+            android:id="@+id/action_settingFragment_to_termsAnddConditionFragment"
+            app:destination="@id/termsAnddConditionFragment" />
+        <action
+            android:id="@+id/action_settingFragment_to_privacyPolicyFragment"
+            app:destination="@id/privacyPolicyFragment" />
+        <action
+            android:id="@+id/action_settingFragment_to_supportFragment"
+            app:destination="@id/supportFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.HistoryFragment"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" >
+        <action
+            android:id="@+id/action_historyFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile" >
+        <action
+            android:id="@+id/action_editProfileFragment_to_congratsFragment"
+            app:destination="@id/congratsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/congratsFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.CongratsFragment"
+        android:label="fragment_congrats"
+        tools:layout="@layout/fragment_congrats" >
+        <action
+            android:id="@+id/action_congratsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.AboutUsFragment"
+        android:label="fragment_about_us"
+        tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/termsAnddConditionFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.TermsAnddConditionFragment"
+        android:label="fragment_terms_andd_condition"
+        tools:layout="@layout/fragment_terms_andd_condition" />
+    <fragment
+        android:id="@+id/privacyPolicyFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.PrivacyPolicyFragment"
+        android:label="fragment_privacy_policy"
+        tools:layout="@layout/fragment_privacy_policy" />
+    <fragment
+        android:id="@+id/supportFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.SupportFragment"
+        android:label="fragment_support"
+        tools:layout="@layout/fragment_support" >
+        <action
+            android:id="@+id/action_supportFragment_to_supportDoneFragment"
+            app:destination="@id/supportDoneFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/supportDoneFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.SupportDoneFragment"
+        android:label="fragment_support_done"
+        tools:layout="@layout/fragment_support_done" >
+        <action
+            android:id="@+id/action_supportDoneFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result" >
+        <action
+            android:id="@+id/action_resultFragment_to_captureNailFragment"
+            app:destination="@id/captureNailFragment" />
+        <action
+            android:id="@+id/action_resultFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/captureNailFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.CaptureNailFragment"
+        android:label="fragment_capture_nail"
+        tools:layout="@layout/fragment_capture_nail" >
+        <action
+            android:id="@+id/action_captureNailFragment_to_captureNailsTestingFragment"
+            app:destination="@id/captureNailsTestingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/captureNailsTestingFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.CaptureNailsTestingFragment"
+        android:label="fragment_capture_nails_testing"
+        tools:layout="@layout/fragment_capture_nails_testing" >
+        <action
+            android:id="@+id/action_captureNailsTestingFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.zat.nurture.views.fragments.mainFragments.ProductDetailFragment"
+        android:label="fragment_product_detail"
+        tools:layout="@layout/fragment_product_detail" />
+</navigation>

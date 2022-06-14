@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/product_frag_bg"
+    android:orientation="vertical"
+    tools:context=".views.fragments.mainFragments.SettingFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginVertical="@dimen/_32sdp">
+
+        <TextView
+            android:id="@+id/txtRecommended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/popin_regular"
+            android:text="@string/view_setting"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/txtBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="@font/popin_regular"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+        <View
+            android:id="@+id/v2"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/txtBack"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_alignParentRight="true"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="@dimen/_4sdp"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/txtBack"
+            android:layout_marginStart="-8dp"
+            android:layout_toEndOf="@id/v2"
+            android:background="@color/white" />
+
+        <View
+            android:id="@+id/v1"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_2sdp"
+            android:elevation="@dimen/_2sdp"
+            android:outlineProvider="background"
+            android:layout_below="@id/txtRecommended"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="@dimen/_6sdp"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/txtRecommended"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@id/v1"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtPersonalInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/personal_information"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:fontFamily="@font/popin_regular"
+        android:layout_marginTop="@dimen/_32sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:drawableEnd="@drawable/ic_arrow_forward"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/invite_a_friend"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/popin_regular"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help_faq"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/popin_regular"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/txtAboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_us"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/popin_regular"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/txtTermsAndCond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/terms_amp_conditions"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/popin_regular"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/txtPrivacyPolicy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/privacy_policy"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/popin_regular"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/txtOurSupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/our_support"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="@font/popin_regular"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_2sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/popin_regular"
+        android:textSize="@dimen/_12ssp"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/_10sdp"
+        android:text="@string/logout"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginVertical="@dimen/_20sdp"
+        android:background="@drawable/main_btn_bg"
+        />
+
+</LinearLayout>

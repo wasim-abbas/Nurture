@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.mainFragments.CaptureNailsTestingFragment">
+
+    <RelativeLayout
+        android:id="@+id/lltop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/txtBack2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:fontFamily="@font/popin_regular"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+        <View
+            android:id="@+id/v2"
+            android:layout_width="@dimen/_24sdp"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/txtBack2"
+            android:layout_alignParentRight="true"
+            android:layout_marginHorizontal="@dimen/_28sdp"
+            android:background="@color/white" />
+
+        <View
+            android:layout_width="@dimen/_4sdp"
+            android:layout_height="@dimen/_2sdp"
+            android:layout_below="@id/txtBack2"
+            android:layout_marginStart="-28dp"
+            android:layout_toEndOf="@id/v2"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/capNail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_24sdp"
+            android:layout_marginTop="@dimen/_24sdp"
+            android:fontFamily="@font/popin_regular"
+            android:text="@string/capture_your_nails2"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/capNail"
+            android:layout_marginStart="@dimen/_24sdp"
+            android:layout_marginEnd="@dimen/_36sdp"
+            android:layout_marginBottom="@dimen/_4sdp"
+            android:fontFamily="@font/popin_regular"
+            android:text="@string/for_testing_the_iron_and_hemoglobin_in_your_body"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txtSuccessfull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_36sdp"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:fontFamily="@font/popin_regular"
+        android:text="@string/nails_selected_successfully"
+        android:textColor="@color/green"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lltop" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_350sdp"
+        android:src="@drawable/hand_green_nail"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtSuccessfull" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

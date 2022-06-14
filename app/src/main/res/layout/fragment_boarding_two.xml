@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.fragments.boardingFragments.BoardingFragmentTwo">
+
+    <View
+        android:id="@+id/viewOne"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/viewOne">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="@string/email_address"
+            android:textColor="@color/dark_blue"
+            android:textSize="@dimen/_12ssp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_2sdp"
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:background="@color/dark_blue"
+                android:elevation="@dimen/_2sdp"
+                android:outlineProvider="background" />
+
+            <View
+                android:layout_width="@dimen/_6sdp"
+                android:layout_height="@dimen/_2sdp"
+                android:background="@color/dark_blue"
+                android:layout_marginStart="-20dp"
+                android:elevation="@dimen/_2sdp" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginVertical="@dimen/_12sdp"
+            android:background="@drawable/editex_bg"
+            android:fontFamily="@font/popin_regular"
+            android:hint="@string/enter_an_email_address"
+            android:paddingVertical="@dimen/_10sdp"
+            android:paddingStart="@dimen/_12sdp"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/btnProceed"
+            style="@style/MainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginVertical="@dimen/_8sdp"
+            android:background="@drawable/main_btn_bg"
+            android:paddingVertical="@dimen/_8sdp"
+            android:text="@string/proceed" />
+
+        <TextView
+            android:id="@+id/btnSkip"
+            style="@style/MainButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:background="@drawable/main_btn_bg"
+            android:paddingVertical="@dimen/_8sdp"
+            android:text="@string/skip" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_12sdp"
+            >
+
+
+
+        <View
+            android:id="@+id/vline1"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_3sdp"
+            android:layout_marginTop="-2dp"
+            android:background="@drawable/view_round_bg" />
+
+        <ImageView
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_16sdp"
+            android:src="@drawable/rect_blue"
+            android:layout_marginStart="-6dp"
+            />
+        </LinearLayout>
+
+<!--        <View-->
+<!--            android:layout_width="@dimen/_2sdp"-->
+<!--            android:layout_height="@dimen/_8sdp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginStart="@dimen/_31sdp"-->
+<!--            android:layout_marginTop="-22dp"-->
+<!--            android:background="@color/white" />-->
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

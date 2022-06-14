@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Nurture</string>
+    <string name="something_went_wrong">Something Went Wrong</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fill_this_field_first">Fill this field first</string>
+    <string name="estimates_your">Estimates your!</string>
+    <string name="hemoglobin_levels_with_a_fingernail_selfie">Hemoglobin levels with a fingernail selfie</string>
+    <string name="dummy_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s,</string>
+    <string name="get_started">get started!</string>
+    <string name="email_address">Email Address!</string>
+    <string name="enter_an_email_address">Enter an Email address</string>
+    <string name="proceed">Proceed!</string>
+    <string name="skip">Skip!</string>
+    <string name="alert">Alert!</string>
+    <string name="alert2">Only Those User\'s Records will show on admin who register yourself through The email address.</string>
+    <string name="add_new_test">Add New Test!</string>
+    <string name="last_test_performed">last test performed</string>
+    <string name="latest_test_result">Latest Test Result</string>
+    <string name="time">1st June, 8:15 pm</string>
+    <string name="recommended_products">Recommended Products!</string>
+    <string name="back">Back!</string>
+    <string name="select_your_category">Select your Category</string>
+    <string name="all_products">All <font color="#D1957F">products!</font></string>
+    <string name="special_infant_formula">Special Infant Formula</string>
+    <string name="iron_supplements">Iron Supplements</string>
+    <string name="view_setting">View Setting!</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="invite_a_friend">Invite a Friend</string>
+    <string name="help_faq">Help/FAQ</string>
+    <string name="about_us">About Us</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="our_support">Our Support</string>
+    <string name="logout">Logout!</string>
+    <string name="change_email_address">Change Email Address!</string>
+    <string name="congratulations">congratulations!</string>
+    <string name="your_email_has_been_changed_successfully">Your Email has been changed Successfully!</string>
+    <string name="thank_you2">Your message has been send to the admin</string>
+    <string name="go_to_home">Go to Home</string>
+    <string name="about_us2">about us!</string>
+    <string name="dummytext2">Lorem peum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry\'s standard dummy text ever since the 50O when an unknown prnter took a goley of ype and scrombled to moke a type specimen bookhos suvived not only five centunes Lorem ipeum is simply dummy text of the printing and typesetting industry. Lorem peum hos been the industry\'s stondord dummy tet ever since th 50 when an unknown printer took o goley oftype and scrambled it to mokea type specimen bookhas sunvived not only five centuries</string>
+    <string name="terms_amp_condition"><![CDATA[Terms & Condition!]]></string>
+    <string name="privacy_policy2">privacy policy!</string>
+    <string name="our_support2">our support!</string>
+    <string name="description">Description</string>
+    <string name="send">Send!</string>
+    <string name="thank_you">thank you!</string>
+    <string name="view_history">View History!</string>
+    <string name="latest_result">Latest Result</string>
+    <string name="old_results">Old Results</string>
+    <string name="_1st_may_8_15_pm">1st May,8:15 Pm</string>
+    <string name="view_results">View Result!</string>
+    <string name="iron_value">Iron Value:</string>
+    <string name="_3g_iron">3g Iron</string>
+    <string name="supplement">Supplement</string>
+    <string name="hemoglobin_preference_range">Hemoglobin Preference Range</string>
+    <string name="mens">Mens</string>
+    <string name="_13_2_to_16_6g_dl">13.2 to 16.6g/dl</string>
+    <string name="womens">Womens</string>
+    <string name="download_result">Download Result!</string>
+    <string name="capture_your_nails">Capture Your Nails!</string>
+    <string name="tap_for_photo">Tap For Photo</string>
+    <string name="capture_your_nails2">capture your nails!</string>
+    <string name="for_testing_the_iron_and_hemoglobin_in_your_body">For testing the iron and hemoglobin in your body</string>
+    <string name="nails_selected_successfully">Nails Selected Successfully!</string>
+    <string name="test_again">Test Again!</string>
+    <string name="irosafe_ferrious_glucose">IROSAFE FERRIOUS GLUCOSE!</string>
+    <string name="link">https://sanguina.com/anemocheck-mobile/</string>
+    <string name="des2">Lorem Ipsum is simply dummy text of the printi ng and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="no_internet">No Internet</string>
+    <string name="reload_page">Reload Page</string>
+    <string name="title">Title</string>
+    <string name="lorem_ipsum_is_the_dummy">Lorem ipsum is the dummy</string>
+    <string name="yummy_liquid_iron">Yummy Liquid Iron</string>
+    <string name="description2">Description:</string>
+    <string name="enter_your_email">Enter your email</string>
+
+
+    <string-array name="category">
+        <item>Select your Category</item>
+        <item>Special Infant Formula</item>
+        <item>Iron Supplements</item>
+    </string-array>
+
+</resources>
